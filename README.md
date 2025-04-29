@@ -35,7 +35,7 @@ custom_components/
 - Installazione semplice tramite `custom_components`
 
 ## 👤 Autore
-Realizzato con passione da **Ivan Aragione**
+Realizzato da **Ivan Aragione**
 
 ## 🔒 Licenza
 Licenza **Commerciale Estesa**: uso personale e commerciale consentito, redistribuzione vietata.

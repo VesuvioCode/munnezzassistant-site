@@ -37,7 +37,7 @@ custom_components/
 - Installazione tramite `custom_components`
 
 ## 👤 Autore
-Creato con passione da **Ivan Aragione** 🇮🇹  
+Creato da **Ivan Aragione** 🇮🇹  
 Se ti è utile, considera una donazione per supportare lo sviluppo.
 
 ## 🔒 Licenza

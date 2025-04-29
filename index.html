@@ -13,30 +13,22 @@
       color: #333;
       margin: 0;
       padding: 0;
+      text-align: center;
     }
-    header, main, section, footer {
+    header {
       padding: 2rem 1rem;
-      max-width: 800px;
-      margin: 0 auto;
     }
     header img {
       max-width: 180px;
-      display: block;
-      margin: 0 auto;
     }
     h1 {
       font-size: 2.2rem;
-      text-align: center;
-    }
-    .icon {
-      width: 32px;
-      height: 32px;
-      vertical-align: middle;
+      margin: 1rem 0 0.5rem;
     }
     .subtitle {
       font-size: 1.1rem;
+      margin-bottom: 1.5rem;
       color: #555;
-      text-align: center;
     }
     ul {
       list-style: none;
@@ -60,11 +52,17 @@
     .cta:hover {
       background: #e86f00;
     }
+    .badges {
+      margin-top: 2rem;
+    }
+    .badges img {
+      margin: 0.3rem;
+    }
     footer {
       margin-top: 3rem;
+      padding: 1rem;
       font-size: 0.9rem;
       color: #888;
-      text-align: center;
     }
   </style>
 </head>
@@ -74,29 +72,31 @@
     <h1>MunnezzAssistant</h1>
     <p class="subtitle">La gestione intelligente della raccolta differenziata per Home Assistant</p>
   </header>
-  <section>
-    <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Versione" style="margin-right: 0.5rem;" />
-    <img src="https://img.shields.io/badge/compatible-Home_Assistant_2024.12.0+-green" alt="Compatibile" style="margin-right: 0.5rem;" />
-    <img src="https://img.shields.io/badge/licenza-Open_Limited_Use-brightgreen" alt="Licenza" style="margin-right: 0.5rem;" />
-    <div style="margin-top: 1.5rem;">
-      <a href="https://github.com/VesuvioCode/MunnezzAssistant/releases/latest" target="_blank">
-        <img src="https://img.shields.io/badge/Download-⬇️-blue?style=for-the-badge&logo=homeassistant" alt="Download" style="margin-right: 0.5rem;" />
-      </a>
-      <img src="https://img.shields.io/badge/Gratuito-S%C3%AC-green?style=for-the-badge" alt="Gratuito" style="margin-right: 0.5rem;" />
-      <a href="https://vesuviocode.gumroad.com/l/pelkif" target="_blank">
-        <img src="https://img.shields.io/badge/Supporta-Gumroad-orange?style=for-the-badge&logo=gumroad" alt="Supporta" />
-      </a>
-    </div>
-  </section>
+
   <main>
     <ul>
       <li>✅ Facile da installare</li>
       <li>✅ Notifiche giornaliere smart</li>
       <li>✅ Compatibile con Home Assistant 2024.12.0+</li>
     </ul>
+
     <a href="https://vesuviocode.gumroad.com/l/pelkif" class="cta" target="_blank">Scarica gratuitamente MunnezzAssistant</a>
     <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;">Progetto gratuito. Se vuoi, puoi supportare lo sviluppo con una donazione libera su Gumroad.</p>
+
+    <div class="badges">
+      <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Versione" />
+      <img src="https://img.shields.io/badge/compatible-Home_Assistant_2024.12.0+-green" alt="Compatibile" />
+      <img src="https://img.shields.io/badge/licenza-Open_Limited_Use-brightgreen" alt="Licenza" /><br />
+      <a href="https://github.com/VesuvioCode/MunnezzAssistant/releases/latest" target="_blank">
+        <img src="https://img.shields.io/badge/Download-⬇️-blue?style=for-the-badge&logo=homeassistant" alt="Download" />
+      </a>
+      <img src="https://img.shields.io/badge/Gratuito-S%C3%AC-green?style=for-the-badge" alt="Gratuito" />
+      <a href="https://vesuviocode.gumroad.com/l/pelkif" target="_blank">
+        <img src="https://img.shields.io/badge/Supporta-Gumroad-orange?style=for-the-badge&logo=gumroad" alt="Supporta" />
+      </a>
+    </div>
   </main>
+
   <footer>
     © 2025 Ivan Aragione • Powered by GitHub Pages • Non affiliato con Home Assistant
   </footer>

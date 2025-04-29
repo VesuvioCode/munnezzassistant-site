@@ -1,104 +1,80 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MunnezzAssistant</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f4f6f8;
-      color: #333;
+      font-family: system-ui, -apple-system, sans-serif;
       margin: 0;
-      padding: 0;
+      background: #f9f9fb;
+      color: #111;
       text-align: center;
     }
     header {
-      padding: 2rem 1rem;
+      background: white;
+      padding: 40px 20px 10px;
     }
-    header img {
-      max-width: 180px;
+    .logo {
+      height: 60px;
+      margin-bottom: 10px;
     }
     h1 {
-      font-size: 2.2rem;
-      margin: 1rem 0 0.5rem;
+      margin: 0;
+      color: #0053a0;
+      font-size: 2em;
     }
-    .subtitle {
-      font-size: 1.1rem;
-      margin-bottom: 1.5rem;
-      color: #555;
+    p {
+      font-size: 1.1em;
+      margin: 10px 0 20px;
     }
-    ul {
-      list-style: none;
-      padding: 0;
-      font-size: 1.1rem;
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px 20px;
+      flex-wrap: wrap;
     }
-    ul li {
-      margin: 0.5rem 0;
+    .feature {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      max-width: 250px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     }
-    .cta {
-      display: inline-block;
-      margin-top: 2rem;
-      padding: 1rem 2rem;
-      background: #ff7f00;
-      color: white;
-      font-weight: bold;
-      text-decoration: none;
-      border-radius: 6px;
-      transition: background 0.3s ease;
+    .feature h3 {
+      color: #0053a0;
+      font-size: 1.1em;
+      margin-bottom: 10px;
     }
-    .cta:hover {
-      background: #e86f00;
-    }
-    .badges {
-      margin-top: 2rem;
-    }
-    .badges img {
-      margin: 0.3rem;
-    }
-    footer {
-      margin-top: 3rem;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #888;
+    .feature p {
+      font-size: 0.95em;
+      color: #333;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="MunnezzAssistant logo" />
+    <img src="logo.png" alt="MunnezzAssistant logo" class="logo" />
     <h1>MunnezzAssistant</h1>
-    <p class="subtitle">La gestione intelligente della raccolta differenziata per Home Assistant</p>
+    <p>La gestione intelligente della raccolta differenziata per Home Assistant</p>
   </header>
 
-  <main>
-    <ul>
-      <li>✅ Facile da installare</li>
-      <li>✅ Notifiche giornaliere smart</li>
-      <li>✅ Compatibile con Home Assistant 2024.12.0+</li>
-    </ul>
-
-    <a href="https://vesuviocode.gumroad.com/l/pelkif" class="cta" target="_blank">Scarica gratuitamente MunnezzAssistant</a>
-    <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;">Progetto gratuito. Se vuoi, puoi supportare lo sviluppo con una donazione libera su Gumroad.</p>
-
-    <div class="badges">
-      <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Versione" />
-      <img src="https://img.shields.io/badge/compatible-Home_Assistant_2024.12.0+-green" alt="Compatibile" />
-      <img src="https://img.shields.io/badge/licenza-Open_Limited_Use-brightgreen" alt="Licenza" /><br />
-      <a href="https://github.com/VesuvioCode/MunnezzAssistant/releases/latest" target="_blank">
-        <img src="https://img.shields.io/badge/Download-⬇️-blue?style=for-the-badge&logo=homeassistant" alt="Download" />
-      </a>
-      <img src="https://img.shields.io/badge/Gratuito-S%C3%AC-green?style=for-the-badge" alt="Gratuito" />
-      <a href="https://vesuviocode.gumroad.com/l/pelkif" target="_blank">
-        <img src="https://img.shields.io/badge/Supporta-Gumroad-orange?style=for-the-badge&logo=gumroad" alt="Supporta" />
-      </a>
+  <section class="features">
+    <div class="feature">
+      <h3>✅ Notifiche intelligenti</h3>
+      <p>Ricevi avvisi automatici personalizzati sulla raccolta rifiuti ogni giorno.</p>
     </div>
-  </main>
-
-  <footer>
-    © 2025 Ivan Aragione • Powered by GitHub Pages • Non affiliato con Home Assistant
-  </footer>
+    <div class="feature">
+      <h3>⚙️ Installazione semplice</h3>
+      <p>Si integra in pochi minuti con Home Assistant, anche senza esperienza.</p>
+    </div>
+    <div class="feature">
+      <h3>📦 Pacchetto completo</h3>
+      <p>Dashboard, automazioni, permessi: tutto pronto all’uso, in stile premium.</p>
+    </div>
+  </section>
 </body>
 </html>

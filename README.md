@@ -1,22 +1,24 @@
 # MunnezzAssistant
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://vesuviocode.github.io/munnezzassistant-site/)
-[![Home Assistant](https://img.shields.io/badge/Compatible_with-Home%20Assistant_2024.12.0%2B-brightgreen)](https://www.home-assistant.io)
-[![License](https://img.shields.io/badge/license-Extended%20Commercial-orange)](https://vesuviocode.gumroad.com/l/pelkif)
-[![Download](https://img.shields.io/badge/download-Gumroad-orange?style=flat-square&logo=gumroad)](https://vesuviocode.gumroad.com/l/pelkif)
+[![Home Assistant](https://img.shields.io/badge/compatibile-Home_Assistant_2024.12.0+-green)](https://www.home-assistant.io)
+[![Licenza](https://img.shields.io/badge/licenza-Open_Limited_Use-brightgreen)](LICENSE)
+[![GRATUITO](https://img.shields.io/badge/GRATUITO-💚-lightgrey)](https://vesuviocode.github.io/munnezzassistant-site/)
+[![Supporta con una donazione](https://img.shields.io/badge/supporta_con_una_donazione-❤️-orange?logo=githubsponsors)](https://vesuviocode.github.io/munnezzassistant-site/)
 
 ---
 
-**MunnezzAssistant** è l'integrazione smart definitiva per la raccolta differenziata, completamente automatizzata tramite Home Assistant.
+**MunnezzAssistant** è l'integrazione smart definitiva per la gestione della raccolta differenziata su Home Assistant.  
+Gratuito, configurabile via interfaccia grafica e con notifiche vocali giornaliere.
 
-## 🌐 Demo
-Visita la landing ufficiale 👉 [https://vesuviocode.github.io/munnezzassistant-site/](https://vesuviocode.github.io/munnezzassistant-site/)
+## 🌐 Demo & Download
+👉 [**Landing ufficiale**](https://vesuviocode.github.io/munnezzassistant-site/)
 
 ## 🚀 Funzionalità
-- Notifiche intelligenti giornaliere
-- Integrazione diretta con Home Assistant
-- Interfaccia configurabile e stile premium
-- Automazioni già pronte
+- Notifiche vocali e visive giornaliere
+- Conferma conferimento personalizzata
+- Dashboard e automazioni già pronte
+- Stile grafico premium integrato con Lovelace
 
 ## 📁 Struttura del progetto
 ```
@@ -31,12 +33,18 @@ custom_components/
 ```
 
 ## 🛠️ Requisiti
-- Home Assistant 2024.12.0 o superiore
-- Installazione semplice tramite `custom_components`
+- Home Assistant `2024.12.0` o superiore
+- Installazione tramite `custom_components`
 
 ## 👤 Autore
-Realizzato da **Ivan Aragione**
+Creato con passione da **Ivan Aragione** 🇮🇹  
+Se ti è utile, considera una donazione per supportare lo sviluppo.
 
 ## 🔒 Licenza
-Licenza **Commerciale Estesa**: uso personale e commerciale consentito, redistribuzione vietata.
 
+MunnezzAssistant è distribuito con **Licenza Open Limitata**:  
+✔️ Uso personale e commerciale consentito  
+✔️ Installazione presso terzi consentita  
+
+❌ Vietata la rivendita o la redistribuzione del codice  
+❌ È vietata la rimozione della paternità dell'autore

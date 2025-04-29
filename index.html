@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -29,12 +28,6 @@
     header p {
       font-size: 1.2rem;
       margin-top: 0.5rem;
-    }
-    .badges {
-      margin: 1.5rem 0;
-    }
-    .badges img {
-      margin: 0.2rem;
     }
     .features {
       display: flex;
@@ -77,6 +70,13 @@
     .cta-button:hover {
       background: #e06b10;
     }
+    .badges-bottom {
+      margin-top: 2.5rem;
+    }
+    .badges-bottom img {
+      height: 20px;
+      margin: 0.2rem;
+    }
     footer {
       margin: 3rem 0 1rem;
       font-size: 0.8rem;
@@ -89,13 +89,14 @@
     <img src="logo.png" alt="Logo MunnezzAssistant" />
     <h1>MunnezzAssistant</h1>
     <p>La gestione intelligente della raccolta differenziata per Home Assistant</p>
-    <div class="badges">
-      <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Versione" />
-      <img src="https://img.shields.io/badge/compatible-Home_Assistant_2024.12.0+-green" alt="Compatibilità" />
-      <img src="https://img.shields.io/badge/licenza-Open_Limited_Use-brightgreen" alt="Licenza" />
-    </div>
     <a href="https://github.com/VesuvioCode/MunnezzAssistant" class="cta-button">Scopri il progetto</a>
   </header>
+
+  <div class="badges-bottom">
+    <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Versione" />
+    <img src="https://img.shields.io/badge/compatible-Home_Assistant_2024.12.0+-green" alt="Compatibilità" />
+    <img src="https://img.shields.io/badge/licenza-Open_Limited_Use-brightgreen" alt="Licenza" />
+  </div>
 
   <section class="features">
     <div class="feature-box">
@@ -114,11 +115,6 @@
 
   <footer>
     © 2025 Ivan Aragione • Powered by GitHub Pages – Non affiliato con Home Assistant
-    <div class="badges" style="margin-top: 1rem;">
-      <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Versione" />
-      <img src="https://img.shields.io/badge/compatible-Home_Assistant_2024.12.0+-green" alt="Compatibilità" />
-      <img src="https://img.shields.io/badge/licenza-Open_Limited_Use-brightgreen" alt="Licenza" />
-    </div>
   </footer>
 </body>
 </html>

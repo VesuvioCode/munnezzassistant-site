@@ -1,47 +1,42 @@
-# MunnezzAssistant - Landing Page
+# MunnezzAssistant
 
-Benvenuto nella repository ufficiale della **landing page promozionale** di [MunnezzAssistant](https://vesuviocode.gumroad.com/l/pelkif), l'integrazione smart per la gestione della raccolta differenziata su Home Assistant.
-
-🔗 **Sito ufficiale:** [https://vesuviocode.github.io/munnezzassistant-site/](https://vesuviocode.github.io/munnezzassistant-site/)
-
----
-
-## 🧩 Contenuto della landing page
-Questa pagina è progettata con uno stile moderno e responsive, per presentare MunnezzAssistant in modo professionale e accattivante.
-
-### Tecnologie utilizzate:
-- HTML5 + CSS3 (layout responsive, effetti glassmorphism e ombreggiature moderne)
-- Font di sistema (Segoe UI, fallback sans-serif)
-- Favicon personalizzata in trasparenza
-- Hosting gratuito su GitHub Pages
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://vesuviocode.github.io/munnezzassistant-site/)
+[![Home Assistant](https://img.shields.io/badge/Compatible_with-Home%20Assistant_2024.12.0%2B-brightgreen)](https://www.home-assistant.io)
+[![License](https://img.shields.io/badge/license-Extended%20Commercial-orange)](https://vesuviocode.gumroad.com/l/pelkif)
+[![Download](https://img.shields.io/badge/download-Gumroad-orange?style=flat-square&logo=gumroad)](https://vesuviocode.gumroad.com/l/pelkif)
 
 ---
 
-## 🗂 File principali
-- `index.html` — Pagina principale della landing
-- `logo.png` — Logo ad alta risoluzione, ottimizzato
-- `favicon.ico` — Icona moderna trasparente
+**MunnezzAssistant** è l'integrazione smart definitiva per la raccolta differenziata, completamente automatizzata tramite Home Assistant.
 
----
+## 🌐 Demo
+Visita la landing ufficiale 👉 [https://vesuviocode.github.io/munnezzassistant-site/](https://vesuviocode.github.io/munnezzassistant-site/)
 
-## 📦 Obiettivo del progetto
-Questa landing funge da vetrina ufficiale per:
-- Mostrare le caratteristiche chiave di MunnezzAssistant
-- Fornire link diretti all'acquisto su Gumroad
-- Offrire una presenza elegante, compatibile con branding professionale
+## 🚀 Funzionalità
+- Notifiche intelligenti giornaliere
+- Integrazione diretta con Home Assistant
+- Interfaccia configurabile e stile premium
+- Automazioni già pronte
 
----
+## 📁 Struttura del progetto
+```
+custom_components/
+└── munnezzassistant/
+    ├── __init__.py
+    ├── sensor.py
+    ├── config_flow.py
+    ├── options_flow.py
+    ├── const.py
+    └── manifest.json
+```
 
-## 🧑‍💻 Autore
-**Ivan Aragione** — Sviluppatore di MunnezzAssistant e curatore della landing page.
+## 🛠️ Requisiti
+- Home Assistant 2024.12.0 o superiore
+- Installazione semplice tramite `custom_components`
 
-📬 Contatti, aggiornamenti e supporto saranno comunicati tramite la piattaforma Gumroad e GitHub.
+## 👤 Autore
+Realizzato con passione da **Ivan Aragione**
 
----
+## 🔒 Licenza
+Licenza **Commerciale Estesa**: uso personale e commerciale consentito, redistribuzione vietata.
 
-## 🛡 Licenza
-Questo progetto è distribuito con **licenza a uso promozionale**, esclusivamente per accompagnare il pacchetto venduto su Gumroad. Non è autorizzata la copia non autorizzata o la ri-pubblicazione.
-
----
-
-Grazie per il supporto e buon utilizzo di MunnezzAssistant! 💚

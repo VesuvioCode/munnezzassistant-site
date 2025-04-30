@@ -139,6 +139,7 @@
     <h1>MunnezzAssistant</h1>
     <p>La gestione intelligente della raccolta differenziata per Home Assistant</p>
     <a href="https://github.com/VesuvioCode/MunnezzAssistant" class="guide-btn">Scopri il progetto</a>
+    <a href="#contatti" class="cta-button" style="margin-left: 1rem;">Contattaci</a>
   </header>
 
   <section class="features">
@@ -210,5 +211,56 @@
   <footer>
     © 2025 Ivan Aragione • Powered by GitHub Pages – Non affiliato con Home Assistant
   </footer>
+
+  <section class="contact-section" id="contatti">
+    <h2>📬 Contattaci</h2>
+    <p>Hai domande, suggerimenti o feedback? Compila il modulo qui sotto, ti risponderemo al più presto!</p>
+    <form action="https://formspree.io/f/movdjpdz" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Nome" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <textarea name="message" rows="5" placeholder="Scrivi il tuo messaggio..." required></textarea>
+      <button type="submit">Invia messaggio</button>
+    </form>
+  </section>
+  <style>
+    .contact-section {
+      margin: 4rem 1rem;
+      text-align: center;
+    }
+    .contact-section h2 {
+      font-size: 2rem;
+      color: #004aad;
+    }
+    .contact-form {
+      max-width: 500px;
+      margin: 2rem auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      padding: 0.8rem 1rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 100%;
+    }
+    .contact-form button {
+      background: #fd7e14;
+      color: white;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background: #e06b10;
+    }
+  </style>
+
+
 </body>
 </html>

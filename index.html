@@ -1,1 +1,127 @@
-placeholder
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MunnezzAssistant</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      padding: 3rem 1rem 1rem;
+    }
+    header img {
+      height: 120px;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #004aad;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .cta-buttons {
+      margin-top: 2rem;
+    }
+    .cta-button, .contact-button {
+      background: #fd7e14;
+      border: none;
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 12px;
+      text-decoration: none;
+      margin: 0 0.5rem;
+      transition: background 0.3s ease;
+      display: inline-block;
+    }
+    .cta-button:hover, .contact-button:hover {
+      background: #e06b10;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem 1rem;
+    }
+    .feature-box {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 2rem;
+      width: 280px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .feature-box:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+    .feature-box h3 {
+      color: #007bff;
+      margin-bottom: 1rem;
+    }
+    .feature-box p {
+      font-size: 0.95rem;
+    }
+    .badges {
+      margin: 3rem 1rem 1rem;
+    }
+    .badges img {
+      height: 22px;
+      margin: 0.2rem;
+    }
+    footer {
+      margin: 2rem 0 1rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo MunnezzAssistant" />
+    <h1>MunnezzAssistant</h1>
+    <p>La gestione intelligente della raccolta differenziata per Home Assistant</p>
+    <div class="cta-buttons">
+      <a href="https://github.com/VesuvioCode/MunnezzAssistant" class="cta-button">Scopri il progetto</a>
+      <a href="#contatti" class="contact-button">Contattaci</a>
+    </div>
+  </header>
+
+  <section class="features">
+    <div class="feature-box">
+      <h3>✅ Notifiche intelligenti</h3>
+      <p>Ricevi avvisi automatici personalizzati sulla raccolta rifiuti ogni giorno.</p>
+    </div>
+    <div class="feature-box">
+      <h3>⚙️ Installazione semplice</h3>
+      <p>Si integra in pochi minuti con Home Assistant, anche senza esperienza.</p>
+    </div>
+    <div class="feature-box">
+      <h3>📦 Pacchetto completo</h3>
+      <p>Dashboard, automazioni, permessi: tutto pronto all’uso, in stile premium.</p>
+    </div>
+  </section>
+
+  <div class="badges">
+    <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Versione" />
+    <img src="https://img.shields.io/badge/compatible-Home_Assistant_2024.12.0+-green" alt="Compatibilità" />
+    <img src="https://img.shields.io/badge/licenza-Open_Limited_Use-brightgreen" alt="Licenza" />
+  </div>
+
+  <footer>
+    © 2025 Ivan Aragione • Powered by GitHub Pages – Non affiliato con Home Assistant
+  </footer>
+</body>
+</html>

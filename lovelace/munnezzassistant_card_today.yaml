@@ -1,0 +1,33 @@
+type: custom:button-card
+template: munnezz_card_oggi
+entity: sensor.rifiuto_oggi
+name: Rifiuto di oggi
+icon: mdi:trash-can
+show_state: true
+state:
+  - value: 'umido'
+    icon: mdi:trash-can
+    styles:
+      icon:
+        - animation: bounce 2s infinite
+  - value: 'plastica'
+    icon: mdi:recycle
+    styles:
+      icon:
+        - animation: shake 1.5s infinite
+  - value: 'carta'
+    icon: mdi:file-document
+    styles:
+      icon:
+        - animation: pulse 2s infinite
+styles:
+  card:
+    - border-radius: 16px
+    - box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+    - background-color: '#ffffff'
+  name:
+    - font-size: 1.1rem
+  state:
+    - font-weight: bold
+    - font-size: 1rem
+    - color: '#004aad'

@@ -1,0 +1,1 @@
+README della sezione Lovelace – sarà generato nella fase finale

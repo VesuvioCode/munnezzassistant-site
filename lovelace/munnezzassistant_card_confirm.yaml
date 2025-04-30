@@ -1,0 +1,19 @@
+type: custom:button-card
+entity: input_boolean.rifiuto_confermato
+name: Conferma Conferimento
+icon: mdi:check-circle
+tap_action:
+  action: toggle
+styles:
+  card:
+    - background-color: |
+        [[[ return states['input_boolean.rifiuto_confermato'].state === 'on' ? '#28a745' : '#e0e0e0'; ]]]
+    - color: |
+        [[[ return states['input_boolean.rifiuto_confermato'].state === 'on' ? 'white' : 'black'; ]]]
+    - border-radius: 14px
+    - box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+  icon:
+    - animation: |
+        [[[ return states['input_boolean.rifiuto_confermato'].state === 'on' ? 'pop 1s ease' : 'none'; ]]]
+  name:
+    - font-size: 1.1rem

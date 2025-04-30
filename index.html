@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -55,21 +56,6 @@
     .feature-box p {
       font-size: 0.95rem;
     }
-    .cta-button {
-      margin-top: 2rem;
-      background: #fd7e14;
-      border: none;
-      color: white;
-      padding: 1rem 2rem;
-      font-size: 1.1rem;
-      border-radius: 12px;
-      text-decoration: none;
-      transition: background 0.3s ease;
-      display: inline-block;
-    }
-    .cta-button:hover {
-      background: #e06b10;
-    }
     .install-guide {
       margin: 3rem 1rem;
       text-align: center;
@@ -96,14 +82,11 @@
       font-size: 1rem;
       text-decoration: none;
       transition: background 0.3s ease;
+      min-width: 180px;
+      text-align: center;
     }
     .guide-btn:hover {
       background: #e06b10;
-    }
-    .guide-btn.disabled {
-      background: #ccc;
-      cursor: not-allowed;
-      pointer-events: none;
     }
     .comparison {
       margin: 3rem 1rem;
@@ -155,7 +138,7 @@
     <img src="logo.png" alt="Logo MunnezzAssistant" />
     <h1>MunnezzAssistant</h1>
     <p>La gestione intelligente della raccolta differenziata per Home Assistant</p>
-    <a href="https://github.com/VesuvioCode/MunnezzAssistant" class="cta-button">Scopri il progetto</a>
+    <a href="https://github.com/VesuvioCode/MunnezzAssistant" class="guide-btn">Scopri il progetto</a>
   </header>
 
   <section class="features">
@@ -177,8 +160,8 @@
     <h2>🔧 Guida all’installazione</h2>
     <p>Tutti i passaggi illustrati per configurare MunnezzAssistant su Home Assistant.</p>
     <div class="guide-buttons">
-      <a href="Guida_Installazione_MunnezzAssistant.pdf" class="guide-btn download" download>Scarica PDF</a>
-      <a href="manuale.html" class="cta-button">Leggi online</a>
+      <a href="Guida_Installazione_MunnezzAssistant.pdf" class="guide-btn" download>Scarica PDF</a>
+      <a href="#" class="guide-btn" onclick="alert('Versione online in arrivo!')">Leggi online</a>
     </div>
   </section>
 

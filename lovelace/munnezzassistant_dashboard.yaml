@@ -1,1 +1,12 @@
-Dashboard base (placeholder, verrà completata dopo)
+title: MunnezzAssistant
+views:
+  - title: Rifiuti
+    path: raccolta
+    theme: munnezzassistant_light
+    badges: []
+    cards:
+      - type: vertical-stack
+        cards:
+          - !include munnezzassistant_card_today.yaml
+          - !include munnezzassistant_card_trashbin.yaml
+          - !include munnezzassistant_card_confirm.yaml

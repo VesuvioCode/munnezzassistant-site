@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guida all'Installazione – MunnezzAssistant</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0 auto;
+      padding: 2rem;
+      max-width: 860px;
+      background: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #004aad;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+    ul, ol {
+      margin-left: 1.5rem;
+    }
+    code {
+      background: #eee;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+    }
+    a {
+      color: #004aad;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Guida ufficiale MunnezzAssistant</h1>
+<p><strong>Installazione passo passo per Home Assistant – Versione Utente Finale</strong></p>
+
+<h2>1. Requisiti minimi</h2>
+<ul>
+  <li>Home Assistant versione 2024.12.0 o superiore</li>
+  <li>Accesso a file e cartelle sul tuo Home Assistant</li>
+  <li>Browser moderno</li>
+  <li>Non è richiesta programmazione</li>
+</ul>
+
+<h2>2. Scarica MunnezzAssistant</h2>
+<p>Vai su <a href="https://vesuviocode.github.io/munnezzassistant-site/">vesuviocode.github.io/munnezzassistant-site</a> e scarica il pacchetto .zip</p>
+
+<h2>3. Scegli la tua installazione</h2>
+
+<h3>Home Assistant OS / Supervised</h3>
+<ol>
+  <li>Vai su Impostazioni > Componenti aggiuntivi > Studio File / Samba</li>
+  <li>Accedi alla cartella <code>config/custom_components/</code></li>
+  <li>Crea la cartella <code>munnezzassistant</code></li>
+  <li>Estrai qui il contenuto dello zip</li>
+  <li>Riavvia Home Assistant</li>
+</ol>
+
+<h3>Home Assistant Container (Docker)</h3>
+<ol>
+  <li>Accedi al volume Docker</li>
+  <li>Crea <code>custom_components/munnezzassistant</code></li>
+  <li>Copia i file</li>
+  <li>Riavvia il container</li>
+</ol>
+
+<h3>Home Assistant Core (Python)</h3>
+<ol>
+  <li>Vai su <code>~/.homeassistant/custom_components/</code></li>
+  <li>Crea <code>munnezzassistant</code></li>
+  <li>Inserisci i file del pacchetto</li>
+  <li>Riavvia con <code>systemctl restart home-assistant.service</code></li>
+</ol>
+
+<h2>4. Configura MunnezzAssistant</h2>
+<ol>
+  <li>Vai su Impostazioni > Dispositivi e servizi > Integrazioni</li>
+  <li>Clicca su “+ Aggiungi integrazione”</li>
+  <li>Cerca “MunnezzAssistant”</li>
+  <li>Segui la procedura guidata</li>
+</ol>
+
+<h2>5. Personalizza la Dashboard</h2>
+<p>Vai su Panoramica > Modifica dashboard e aggiungi card personalizzate:</p>
+<ul>
+  <li>Tipo di rifiuto</li>
+  <li>Animazione (facoltativa)</li>
+  <li>Pulsante conferma</li>
+</ul>
+
+<h2>6. Test e verifica</h2>
+<ul>
+  <li>Simula un giorno modificando il sensore o la data</li>
+  <li>Verifica le notifiche vocali</li>
+  <li>Prova il pulsante “Conferma”</li>
+</ul>
+
+<h2>7. Problemi comuni</h2>
+<ul>
+  <li>Assicurati di riavviare Home Assistant</li>
+  <li>Controlla che ci sia <code>manifest.json</code> nella cartella</li>
+  <li>Verifica l’integrazione con Alexa/Google</li>
+</ul>
+
+<h2>8. Dove trovare supporto</h2>
+<ul>
+  <li><a href="https://vesuviocode.github.io/munnezzassistant-site/">Landing ufficiale</a></li>
+  <li>Gruppo Facebook: Home Assistant Italia</li>
+  <li>Segnala un problema su GitHub</li>
+</ul>
+
+<h2>9. Licenza e autore</h2>
+<p>Licenza Open Limitata: uso personale e commerciale consentito. Vietata la rivendita o redistribuzione.</p>
+<p><strong>Creato da Ivan Aragione</strong></p>
+
+<footer>
+© 2025 Ivan Aragione – MunnezzAssistant
+</footer>
+
+</body>
+</html>

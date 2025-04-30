@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guida all'Installazione – MunnezzAssistant</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0 auto;
+      padding: 2rem;
+      max-width: 860px;
+      background: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #004aad;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+    h3 {
+      font-size: 1.2rem;
+    }
+    ul {
+      margin-left: 1.5rem;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    code {
+      background: #eee;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .toc {
+      background: #f1f1f1;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+    .toc ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .toc li {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Guida all'Installazione</h1>
+  <p><strong>MunnezzAssistant</strong> è un'integrazione completa per Home Assistant che semplifica la gestione della raccolta differenziata.</p>
+
+  <div class="toc">
+    <h2>📑 Sommario</h2>
+    <ul>
+      <li><a href="#requisiti">1. Requisiti</a></li>
+      <li><a href="#installazione">2. Installazione</a></li>
+      <li><a href="#integrazione">3. Integrazione in Home Assistant</a></li>
+      <li><a href="#lovelace">4. Dashboard Lovelace</a></li>
+      <li><a href="#risorse">5. Altre risorse</a></li>
+    </ul>
+  </div>
+
+  <h2 id="requisiti">1. Requisiti</h2>
+  <ul>
+    <li>Home Assistant 2024.12.0 o superiore</li>
+    <li>Accesso alla cartella <code>config</code> per aggiungere <code>custom_components</code></li>
+    <li>Facoltativo: HACS installato per aggiunte Lovelace</li>
+  </ul>
+
+  <h2 id="installazione">2. Installazione</h2>
+  <ol>
+    <li>Scarica il file ZIP di MunnezzAssistant da GitHub</li>
+    <li>Estrai la cartella <code>munnezzassistant</code> in <code>config/custom_components/</code></li>
+    <li>Riavvia Home Assistant</li>
+    <li>Vai su Impostazioni > Dispositivi e servizi > Aggiungi integrazione > MunnezzAssistant</li>
+  </ol>
+
+  <h2 id="integrazione">3. Integrazione in Home Assistant</h2>
+  <p>Una volta installata, puoi configurare:</p>
+  <ul>
+    <li>Tipi di rifiuti e calendario raccolta</li>
+    <li>Messaggi vocali Alexa/Google</li>
+    <li>Utente responsabile del conferimento</li>
+  </ul>
+
+  <h2 id="lovelace">4. Dashboard Lovelace</h2>
+  <p>Per usare la dashboard visiva:</p>
+  <ol>
+    <li>Copia i file YAML da <code>lovelace/</code> nella tua <code>config/</code></li>
+    <li>Vai su Impostazioni > Dashboard > 3 puntini > Importa YAML</li>
+    <li>Applica anche il tema <code>munnezzassistant_light</code></li>
+  </ol>
+
+  <h2 id="risorse">5. Altre risorse</h2>
+  <ul>
+    <li><a href="https://github.com/VesuvioCode/MunnezzAssistant">Pagina GitHub ufficiale</a></li>
+    <li><a href="https://vesuviocode.github.io/munnezzassistant-site/">Landing MunnezzAssistant</a></li>
+  </ul>
+
+  <p><small>© 2025 Ivan Aragione • Tutti i diritti riservati</small></p>
+</body>
+</html>

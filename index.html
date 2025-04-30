@@ -19,7 +19,7 @@
       padding: 3rem 1rem 1rem;
     }
     header img {
-      height: 120px;
+      height: 160px;
       margin-bottom: 1rem;
     }
     header h1 {
@@ -29,21 +29,6 @@
     header p {
       font-size: 1.2rem;
       margin-top: 0.5rem;
-    }
-    .cta-button {
-      margin: 1rem 0.5rem;
-      background: #fd7e14;
-      border: none;
-      color: white;
-      padding: 1rem 2rem;
-      font-size: 1.1rem;
-      border-radius: 12px;
-      text-decoration: none;
-      transition: background 0.3s ease;
-      display: inline-block;
-    }
-    .cta-button:hover {
-      background: #e06b10;
     }
     .features {
       display: flex;
@@ -71,10 +56,11 @@
     .feature-box p {
       font-size: 0.95rem;
     }
-    .install-guide, .comparison {
+    .install-guide {
       margin: 3rem 1rem;
+      text-align: center;
     }
-    .install-guide h2, .comparison h2 {
+    .install-guide h2 {
       font-size: 2rem;
       color: #004aad;
     }
@@ -96,13 +82,18 @@
       font-size: 1rem;
       text-decoration: none;
       transition: background 0.3s ease;
+      min-width: 180px;
+      text-align: center;
     }
     .guide-btn:hover {
       background: #e06b10;
     }
+    .comparison {
+      margin: 3rem 1rem;
+    }
     table {
-      width: 95%;
-      max-width: 900px;
+      width: 90%;
+      max-width: 800px;
       margin: 2rem auto;
       border-collapse: collapse;
       background: #fff;
@@ -129,7 +120,7 @@
       font-size: 1.2rem;
     }
     .badges {
-      margin: 3rem 1rem 1rem;
+      margin: 3rem 1rem;
     }
     .badges img {
       height: 22px;
@@ -140,24 +131,14 @@
       font-size: 0.8rem;
       color: #888;
     }
-  
-    .cta-secondary {
-      background: #004aad;
-      margin-left: 1rem;
-    }
-    .cta-secondary:hover {
-      background: #00337f;
-    }
-
-</style>
+  </style>
 </head>
 <body>
   <header>
     <img src="logo.png" alt="Logo MunnezzAssistant" />
     <h1>MunnezzAssistant</h1>
     <p>La gestione intelligente della raccolta differenziata per Home Assistant</p>
-    <a href="https://github.com/VesuvioCode/MunnezzAssistant" class="cta-button">Scopri il progetto</a>
-    <a href="contatti.html" class="cta-button cta-secondary">Contattaci</a>
+    <a href="https://github.com/VesuvioCode/MunnezzAssistant" class="guide-btn">Scopri il progetto</a>
   </header>
 
   <section class="features">
@@ -180,7 +161,7 @@
     <p>Tutti i passaggi illustrati per configurare MunnezzAssistant su Home Assistant.</p>
     <div class="guide-buttons">
       <a href="Guida_Installazione_MunnezzAssistant.pdf" class="guide-btn" download>Scarica PDF</a>
-      <a href="Guida_Installazione_MunnezzAssistant.html" class="guide-btn">Leggi online</a>
+      <a href="Guida_Installazione_MunnezzAssistant.html" class="guide-btn" target="_blank">Leggi online</a>
     </div>
   </section>
 
@@ -192,13 +173,31 @@
         <th>Automazione manuale</th>
         <th>MunnezzAssistant</th>
       </tr>
-      <tr><td>Configurazione semplice</td><td class="cross">❌</td><td class="check">✅</td></tr>
-      <tr><td>Grafica moderna e responsive</td><td class="cross">❌</td><td class="check">✅</td></tr>
-      <tr><td>Notifiche Alexa/Google</td><td class="cross">❌</td><td class="check">✅</td></tr>
-      <tr><td>Gestione conferimenti</td><td class="cross">❌</td><td class="check">✅</td></tr>
-      <tr><td>Controllo permessi utenti</td><td class="cross">❌</td><td class="check">✅</td></tr>
-      <tr><td>Card Lovelace animate</td><td class="cross">❌</td><td class="check">✅</td></tr>
-      <tr><td>Supporto multilingua</td><td class="cross">❌</td><td class="check">✅</td></tr>
+      <tr>
+        <td>Configurazione semplice</td>
+        <td class="cross">❌</td>
+        <td class="check">✅</td>
+      </tr>
+      <tr>
+        <td>Grafica moderna</td>
+        <td class="cross">❌</td>
+        <td class="check">✅</td>
+      </tr>
+      <tr>
+        <td>Notifiche Alexa/Google</td>
+        <td class="cross">❌</td>
+        <td class="check">✅</td>
+      </tr>
+      <tr>
+        <td>Gestione conferimenti</td>
+        <td class="cross">❌</td>
+        <td class="check">✅</td>
+      </tr>
+      <tr>
+        <td>Controllo permessi utenti</td>
+        <td class="cross">❌</td>
+        <td class="check">✅</td>
+      </tr>
     </table>
   </section>
 
@@ -208,7 +207,6 @@
     <img src="https://img.shields.io/badge/licenza-Open_Limited_Use-brightgreen" alt="Licenza" />
   </div>
 
-  <div id="contatti"></div>
   <footer>
     © 2025 Ivan Aragione • Powered by GitHub Pages – Non affiliato con Home Assistant
   </footer>

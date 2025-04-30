@@ -1,50 +1,56 @@
 # MunnezzAssistant
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://vesuviocode.github.io/munnezzassistant-site/)
-[![Home Assistant](https://img.shields.io/badge/compatibile-Home_Assistant_2024.12.0+-green)](https://www.home-assistant.io)
-[![Licenza](https://img.shields.io/badge/licenza-Open_Limited_Use-brightgreen)](LICENSE)
-[![GRATUITO](https://img.shields.io/badge/GRATUITO-💚-lightgrey)](https://vesuviocode.github.io/munnezzassistant-site/)
-[![Supporta con una donazione](https://img.shields.io/badge/supporta_con_una_donazione-❤️-orange?logo=githubsponsors)](https://vesuviocode.github.io/munnezzassistant-site/)
+
+
+![Hosting](https://img.shields.io/badge/Hosting-GitHub_Pages-blueviolet?logo=githubpages&style=flat)
+![Design](https://img.shields.io/badge/Design-Responsive-success?style=flat-square)
+![HTML5](https://img.shields.io/badge/HTML5-Validated-orange?logo=html5)
+![Privacy](https://img.shields.io/badge/Privacy-100%25%20Anonima-blue?style=flat-square)
+![Contatti](https://img.shields.io/badge/Contatti-Formspree-orange?logo=formspree)
+
 
 ---
 
-**MunnezzAssistant** è l'integrazione smart definitiva per la gestione della raccolta differenziata su Home Assistant.  
-Gratuito, configurabile via interfaccia grafica e con notifiche vocali giornaliere.
+![Versione](https://img.shields.io/badge/version-1.0.0-blue)
+![Compatibile](https://img.shields.io/badge/compatible-Home_Assistant_2024.12.0+-green)
+![Licenza](https://img.shields.io/badge/licenza-Open_Limited_Use-brightgreen)
 
-## 🌐 Demo & Download
-👉 [**Landing ufficiale**](https://vesuviocode.github.io/munnezzassistant-site/)
+[![Download](https://img.shields.io/badge/Download-⬇️-blue?style=for-the-badge&logo=homeassistant)](https://github.com/VesuvioCode/MunnezzAssistant/releases/latest)
+![Gratuito](https://img.shields.io/badge/Gratuito-Sì-green?style=for-the-badge)
+[![Supporta](https://img.shields.io/badge/Supporta-Gumroad-orange?style=for-the-badge&logo=gumroad)](https://vesuviocode.gumroad.com/l/pelkif)
 
-## 🚀 Funzionalità
-- Notifiche vocali e visive giornaliere
-- Conferma conferimento personalizzata
-- Dashboard e automazioni già pronte
-- Stile grafico premium integrato con Lovelace
+---
 
-## 📁 Struttura del progetto
-```
-custom_components/
-└── munnezzassistant/
-    ├── __init__.py
-    ├── sensor.py
-    ├── config_flow.py
-    ├── options_flow.py
-    ├── const.py
-    └── manifest.json
-```
+---
 
-## 🛠️ Requisiti
-- Home Assistant `2024.12.0` o superiore
-- Installazione tramite `custom_components`
+> **MunnezzAssistant è gratuito!**  
+> Se lo trovi utile, puoi supportare lo sviluppo con una donazione libera su Gumroad.
 
-## 👤 Autore
-Creato da **Ivan Aragione** 🇮🇹  
-Se ti è utile, considera una donazione per supportare lo sviluppo.
+---
 
-## 🔒 Licenza
+**MunnezzAssistant** è l'integrazione intelligente per Home Assistant che ti aiuta a gestire la raccolta differenziata in modo semplice, automatico e personalizzabile.
 
-MunnezzAssistant è distribuito con **Licenza Open Limitata**:  
-✔️ Uso personale e commerciale consentito  
-✔️ Installazione presso terzi consentita  
+Ideato da **Ivan Aragione**, MunnezzAssistant semplifica la vita domestica grazie a:
+- Notifiche dinamiche sulla raccolta dei rifiuti
+- Conferma dei conferimenti
+- Gestione completamente integrata con Home Assistant
+- Configurazione grafica facile, accessibile a tutti
 
-❌ Vietata la rivendita o la redistribuzione del codice  
-❌ È vietata la rimozione della paternità dell'autore
+Compatibile con Home Assistant **versione 2024.12.0** e successive.
+
+---
+
+## Licenza
+
+MunnezzAssistant è distribuito con **Licenza Open Limitata**.  
+Con l'acquisto o il download gratuito è consentito:
+- Utilizzo personale e commerciale illimitato
+- Installazione presso clienti finali da parte di aziende o installatori
+
+**È vietato:**
+- Rivendere il codice sorgente
+- Ridistribuire pubblicamente il progetto senza autorizzazione
+- Modificare il codice per rimuovere la paternità dell'autore Ivan Aragione
+
+---
+

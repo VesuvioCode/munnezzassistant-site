@@ -1,6 +1,7 @@
 # MunnezzAssistant
 
 [![Install with HACS](https://img.shields.io/badge/HACS-Install-blue.svg?style=for-the-badge&logo=home-assistant)](https://my.home-assistant.io/redirect/hacs_repository/?owner=VesuvioCode&repository=munnezzassistant-hacs&category=lovelace)
+![HACS Validation](https://github.com/VesuvioCode/munnezzassistant-hacs/actions/workflows/hacs-validation.yml/badge.svg)
 
 
 
